@@ -29,7 +29,7 @@ export async function getServerSidePaths() {
         }
 }
 
-export default (enlace) => {
+export default function Enlace({enlace}){
 
     // Context de la app
     const AppContext = useContext(appContext);
